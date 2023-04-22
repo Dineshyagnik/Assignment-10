@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    
+     <title>Document</title>
+     <style>
+/* #a,#b{height: 30px; width: 60%; margin-left: 20%; margin-right: 20%;}
+#b{border: none; border-bottom: 2px solid red;}
+#b:focus{outline: none;}
+#c{height: 30px; width: 20%; margin-left: 20%; background: orange;
+text-align: center; margin-top: 10px;} */
+
+[type="text"],[type="password"]{height: 30px; width: 60%;
+     margin-left: 20%; margin-right: 20%;}
+
+[type="submit"]{height: 30px; width: 20%; margin-left: 20%;
+      background: orange;
+text-align: center; margin-top: 10px;}
+
+input::placeholder{color: aqua; position: relative; left: 20px;}
+
+     </style>
+</head>
+<body>
+  <form name="frm">
+     Name:
+     <input type="text" name="n" placeholder="Enter name" id="a">
+     Pass:
+     <input type="password" name="p" placeholder="Enter Password" 
+     id="b">
+     <input type="submit" name="sub" id="c">
+  </form>   
+</body>
+</html>
